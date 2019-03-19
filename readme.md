@@ -48,9 +48,7 @@ This is the hw03 sample. Please follow the steps below.
 [ESEmbedded_HW02_Example]: https://github.com/vwxyzjimmy/ESEmbedded_HW02_Example
 
 --------------------
-
-- [x] **If you volunteer to give the presentation next week, check this.**
-
 --------------------
+此次作業須先製作一簡單程式碼，於是我製作了一個程式它會呼叫一個函式，之後這個函式還會在乎教令一個函式，等它運行完之後便把控制權交給上一個，由assembly code可以看出呼叫函式的作法是利用bl 更改pc數值，使其跳到所呼叫函是的起點，同時將stack下推一層，運行完畢之後便利用pop回到上一個執行的函式，直到回到最原始函式。
 
-**★★★ Please take your note here ★★★**
+
